@@ -19,35 +19,134 @@
         <form class="quiz">
           <div class="row">
             <div class="col-md-6">
-              <label for="firstName">Your first name:</label>
-              <input id="firstName" class="form-control" type="text">
-              <br>
-              <label for="lastName">Your last name:</label>
-              <input id="lastName" class="form-control" type="text">
-              <br>
-              <label for="age">Your age:</label>
-              <input id="age" class="form-control" type="text">
-              <br>
-              <label for="gender">What's your gender?</label>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="gender" checked>
-                  Female
-                </label>
-              </div><div class="radio">
-                <label>
-                  <input type="radio" name="gender">
-                  Male
-                </label>
-              </div><div class="radio">
-                <label>
-                  <input type="radio" name="gender">
-                  Other
-                </label>
+              <div class="well" id="personal-info">
+                <label for="first-name">Your first name:</label>
+                <input id="first-name" class="form-control" type="text">
+                <br>
+                <label for="last-name">Your last name:</label>
+                <input id="last-name" class="form-control" type="text">
+                <br>
+                <label for="age">Your age:</label>
+                <input id="age" class="form-control" type="text">
+                <br>
+                <label for="gender">What's your gender?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="gender" checked>
+                    Female
+                  </label>
+                </div><div class="radio">
+                  <label>
+                    <input type="radio" name="gender">
+                    Male
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="gender">
+                    Other
+                  </label>
+                </div>
               </div>
             </div>
             <div class="col-md-6">
-
+              <div class="well" id="questionaire">
+                <label for="question1">How much traveling do you want to do?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="1" checked>
+                    Someplace I could drive to would be best.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="2">
+                    I don't mind flying but I don't want anything international.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="3">
+                    There is no limitations for me!
+                  </label>
+                </div>
+                <label for="question2">What kind of clothing do you like to wear on vacation?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="2" checked>
+                    I like to bring plenty of warm clothing to bundle up with.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="3">
+                    I like to dress like a tourist visiting someplace new.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question2" value="1">
+                    Swimsuits, tanktops, shorts, and sunglasses are a must with any vacation.
+                  </label>
+                </div>
+                <label for="question3">What kind of culture do you enjoy the most?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="3" checked>
+                    Foreign culture is great. I love being around new things.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="1">
+                    Western pop culture is the best culture.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3" value="2">
+                    I adore the small town vibe.
+                  </label>
+                </div>
+                <label for="question4">What's your ideal way to spend a day?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="1" checked>
+                    I like to spend a sunny day at the beach and hit up designer shops by night.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="3">
+                    Exploring a whole new world and engulfing myself in new and exciting cultures is my dream!
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4" value="2">
+                    I like to go on mountain hikes, river boat rides, and visit mom and pop shops to support the local economy.
+                  </label>
+                </div>
+                <label for="question5">What is your prefered weather?</label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="3" checked>
+                    Weather doesn't bother me. As long as I get to see someplace new!
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="1">
+                    I like it warm. The warmer the better.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5" value="2">
+                    You can always layer up, but you can't get more naked. I prefer the cold hands down.
+                  </label>
+                </div>
+              </div>
             </div>
           </div>
         </form>
