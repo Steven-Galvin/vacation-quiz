@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-   <link href="css/styles.css" rel="stylesheet" type="text/css">
-   <script src="js/jquery-3.1.1.js"></script>
-   <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Vacation Quiz</title>
   </head>
   <body>
     <div class="container">
       <div class="well" id="header">
-
+        <h1>Decide Your Vacation Destination</h1>
       </div>
       <div id="quiz">
         <div class="well">
-
+          <h3>Don't know where to go for some time off?</h3>
+          <p>Answer some of these questions below and all the hard work of deciding where to vacation will eliminated. It just takes a couple minutes and your destination will be decided!</p>
         </div>
         <form class="quiz">
           <div class="row">
@@ -47,7 +49,11 @@
                     Other
                   </label>
                 </div>
+                <img src="img/worldmap.png">
               </div>
+              <br>
+              <br>
+              <button type="submit" class="btn">Get Result!</button>
             </div>
             <div class="col-md-6">
               <div class="well" id="questionaire">
@@ -127,7 +133,7 @@
                     I like to go on mountain hikes, river boat rides, and visit mom and pop shops to support the local economy.
                   </label>
                 </div>
-                <label for="question5">What is your prefered weather?</label>
+                <label for="question5">What is your preferred weather?</label>
                 <div class="radio">
                   <label>
                     <input type="radio" name="question5" value="3" checked>
