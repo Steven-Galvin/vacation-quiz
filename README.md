@@ -6,7 +6,7 @@
 
 ## Description
 
-This is an application designed to show you one of three vacation destination results based off of your answers to five questions I picked out. It uses Javascript, CSS, jQuery, and Bootstrap to style and function. It gathers your information and uses your first name to respond to you personally to add a touch of personality to the page. Here is a link to my github pages https://github.com/Steven-Galvin/vacation-quiz
+This is an application designed to show you one of three vacation destination results based off of your answers to five questions I picked out. It uses Javascript, CSS, jQuery, and Bootstrap to style and function. It gathers your information and uses your first name to respond to you personally to add a touch of personality to the page. Here is a link to my github pages https://steven-galvin.github.io/vacation-quiz/
 
 ## Setup/Installation Requirements
 
